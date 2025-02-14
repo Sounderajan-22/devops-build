@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME  = Sounderajan/dev
+        DOCKER_IMAGE_NAME  = 'sounderajan/dev'
         DOCKERHUB_USERNAME = 'sounderajan'
         DOCKERHUB_PASSWORD = credentials('Rajan@6380344602')  // Docker Hub credentials
     }
